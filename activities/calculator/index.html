@@ -1,12 +1,9 @@
 <html>
-
 	<head>
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/toggle-sidebar.css" rel="stylesheet">
 	</head>
-	
 		<body>
-		
 			<script>
 				function toNum(n){
 					return parseInt(n);
@@ -33,11 +30,11 @@
 			</script>
 	  
 		<form name="calc">
-          Num1: <input type="text" id="num1"><br>
-          Num2: <input type="text" id="num2"><br>
+        		 Num1: <input type="text" id="num1"><br>
+        		 Num2: <input type="text" id="num2"><br>
 		</form>
 		
-    <button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
+	<button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
 	<button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
 	<button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
 	<button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
